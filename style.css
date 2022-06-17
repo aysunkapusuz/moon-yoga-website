@@ -33,7 +33,7 @@ nav ul li a{
     color: aliceblue;
 }
 button{
-    background-color: chocolate;
+    background-color: rgb(144, 136, 136);
     height: 30px;
     width: 60px;
     border-radius: 20px;
@@ -44,7 +44,7 @@ button{
 }
 button span{
     display: block;
-    background-color: brown;
+    background-color: aliceblue;
     height: 26px;
     width: 26px;
     border-radius: 50%;
@@ -61,6 +61,14 @@ button span{
 .moon{
     width: 300px;
     margin-bottom: -26%;
+}
+.moon_container h1{
+    margin-bottom: -26%;
+    margin-left: 50px;
+
+}
+.welcome{
+    display: none;
 }
 .light{
     position: absolute;
@@ -113,14 +121,16 @@ button span{
 }
 
 .active{
-    background-color: rgb(144, 136, 136);
+    
+    background-color: chocolate;
 }
 .active span{
-    background-color: aliceblue;
+    background-color: brown;
     margin-left: 31px;
 }
 .backgroundImage{
     background-image: url('stars.jpg');
-    height: 100%;
-    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
