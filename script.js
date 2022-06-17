@@ -8,12 +8,6 @@ function toggleBtn(){
     button.classList.toggle('active')
     backgroundImage.classList.toggle('backgroundImage')
     welcome.classList.toggle('welcome')
-    // image.classList.toggle('moon')
-    if (img) {
-        document.getElementById('moonn').src = 'moon.jpg';
-      } else{
-        document.getElementById('moonn').src = '';
-        
-      }
+    image.classList.toggle('moon')
     
 }
