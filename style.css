@@ -65,18 +65,8 @@ button span{
 .moon_container h1{
     margin-bottom: -26%;
     margin-left: 50px;
+}
 
-}
-.welcome{
-    display: none;
-}
-.light{
-    position: absolute;
-    top: 97%;
-    width: 100%;
-
-    left: -10%;
-}
 .text_container{
     max-width: 600px;
     margin-top: 10%;
