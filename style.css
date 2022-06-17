@@ -65,6 +65,7 @@ button span{
 .moon_container h1{
     margin-bottom: -26%;
     margin-left: 50px;
+    display: none;
 }
 
 .text_container{
