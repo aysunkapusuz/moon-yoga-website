@@ -173,41 +173,37 @@ button span{
 } 
 */
 
-
- /* .footer{
-     height: 50px;
-     display: flex;
-     align-items: center;
-     font-size: 20px;
-     top: 0;
-     z-index: 999;
- }
- .footer_social-media{
-     font-size: 20px;
- 
- }
- .footer_social-media a{
-     color: #7a6905;
- }
- .footer_social-media i:hover{
-     color: #372c03;
-     transform: scale(1.075);
-     transition: 0.2s ease-in;
-     cursor: pointer;
- 
- }
- .footer_second p{
-     margin-right: 0;
- } */
-
  .footer{
+    padding: 20px 3%;
     height: 50px;
     align-items: center;
     display: inline-flex;
+    font-size: 16px;
+    top: 0;
+    z-index: 999;
+    color: aliceblue;
  }
  .footer_social-media{
     display: flex;
  }
+ .footer_social-media a{
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #e0dbe6;
+    background-image: linear-gradient(to top, rgb(214, 141, 6), #c4bba5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+ }
+ .footer_social-media i:hover{
+    color: #e0dbe6;
+    /* transform: scale(1.075);
+    transition: 0.2s ease-in; */
+    cursor: pointer;
+}
  .footer_second p{
-    margin-left: 1100px;
+    margin-left: 960px;
 }
