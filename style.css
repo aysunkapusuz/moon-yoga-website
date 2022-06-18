@@ -13,11 +13,21 @@
 nav{
     display: flex;
     align-items: center;
-    padding: 20px 8%;
+    padding: 20px 3%;
 }
 nav .logo{
     width: 160px;
     cursor: pointer;
+    background-color: #e0dbe6;
+    background-image: linear-gradient(to top, rgb(214, 141, 6), #c4bba5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
 }
 nav ul{
     flex: 1;
@@ -92,7 +102,7 @@ button span{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .control .line{
     width: 250px;
@@ -162,3 +172,27 @@ button span{
     opacity: 1;
 } 
 */
+
+
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    top: 0;
+    z-index: 999;
+}
+.footer_social-media{
+    font-size: 20px;
+
+}
+.footer_social-media a{
+    color: #7a6905;
+}
+.footer_social-media i:hover{
+    color: #372c03;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}

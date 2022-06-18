@@ -12,10 +12,11 @@ function toggleBtn(){
     
 }
 
-// document.querySelector('#button').addEventListener('click', hide)
-// function hide(){
-//   document.querySelector('#moonn').style.display = 'none'
-// }
+document.querySelector('#button').addEventListener('click', hide)
+function hide(){
+  document.getElementById('moonn').classList.toggle('moon')
+  
+}
 // const backgroundImage = document.querySelector('#bImg')
 // const image = document.querySelector('#moonn')
 // const welcome = document.querySelector('#wel')
