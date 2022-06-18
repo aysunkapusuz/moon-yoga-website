@@ -3,12 +3,16 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    height: 100%;
+    overflow: hidden;
+}
 .main_div{
     background-image: url('stars.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     width: 100%;
+    min-height: 100vh;
     color: aliceblue;
     position: relative;
 }
@@ -47,16 +51,16 @@ nav ul li a{
 .thebiggest{
     display: grid;
     grid-template-columns: 60% 40%;
-    height: 50% ;
+    height: 40% ;
     width: 50%;
-    margin-left: 400px;
+    margin-left: 360px;
     margin-top: -79px;
 }
 .main #massage{
     position: absolute;
     margin-top: 20%;
     margin-left: 30px;
-    background-color: #ead067;
+    background-color: #1c2733;
     border-radius: 6px;
     width: 300px;
 }
