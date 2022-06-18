@@ -4,7 +4,9 @@
     padding: 0%;
 }
 .main_div{
-    background-color: black; 
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
     color: aliceblue;
@@ -42,87 +44,32 @@ nav ul li a{
     text-decoration: none;
     color: aliceblue;
 }
-
+.thebiggest{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #c4bba5;
+    height: 50% ;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: -60px;
+}
 .main{
     
-    display: flexbox;
-    height: 90px;
-    width: 400px;
-    align-items: center;
+    
 }
-
-.moon_container{
+.main #massage{
     position: absolute;
-    top: 200px;
-    left: 22%;
+    margin-top: 20%;
+    margin-left: 30px;
+    background-color: #2d055e;
+    border-radius: 6px;
     width: 300px;
 }
-.moon{
+.main img{
     width: 300px;
-    margin-bottom: -26%;
-}
-.moon_container h1{
-    margin-bottom: -26%;
-    margin-left: 50px;
-    display: none;
-}
-
-.text_container{
-    max-width: 600px;
-    margin-top: 10%;
-    margin-left: 50%;
-
-}
-.text_container h1{
-    font-size: 80px;
-    font-weight: bold;
-}
-.text_container a{
-    text-decoration: none;
-    background-color: blanchedalmond;
-    padding: 14px 40px;
-    display: inline-block;
-    color: rgb(3, 9, 14);
-    font-size: 18px;
-    margin-top: 30px;
-    border-radius: 30px;
-}
-.control{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 120px;
-}
-.control .line{
-    width: 250px;
-    height: 4px;
-    background-color: aliceblue;
-    margin:0 20px ;
-    border-radius: 2px;
-}
-.control .line span{
-    width: 50%;
-    height: 8px;
-    margin-top: -2px;
-    border-radius: 4px;
-    background-color: brown;
-    display: block;
-
-}
-
-.active{
-    
-    background-color: chocolate;
-}
-.active span{
-    background-color: brown;
-    margin-left: 31px;
-}
-.backgroundImage{
-    background-image: url('stars.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
 }
 
 /* POP-UP BOXES */
@@ -163,7 +110,7 @@ nav ul li a{
 */
 
  .footer{
-    padding: 20px 3%;
+    padding: 98px 3%;
     height: 50px;
     align-items: center;
     display: inline-flex;
