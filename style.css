@@ -174,25 +174,28 @@ button span{
 */
 
 
-.footer{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    top: 0;
-    z-index: 999;
-}
-.footer_social-media{
-    font-size: 20px;
-
-}
-.footer_social-media a{
-    color: #7a6905;
-}
-.footer_social-media i:hover{
-    color: #372c03;
-    transform: scale(1.075);
-    transition: 0.2s ease-in;
-    cursor: pointer;
-
-}
+ /* .footer{
+     height: 50px;
+     display: flex;
+     align-items: center;
+     font-size: 20px;
+     top: 0;
+     z-index: 999;
+ }
+ .footer_social-media{
+     font-size: 20px;
+ 
+ }
+ .footer_social-media a{
+     color: #7a6905;
+ }
+ .footer_social-media i:hover{
+     color: #372c03;
+     transform: scale(1.075);
+     transition: 0.2s ease-in;
+     cursor: pointer;
+ 
+ }
+ .footer_second p{
+     margin-right: 0;
+ } */
