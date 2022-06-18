@@ -47,21 +47,16 @@ nav ul li a{
 .thebiggest{
     display: grid;
     grid-template-columns: 60% 40%;
-    background-color: #c4bba5;
     height: 50% ;
     width: 50%;
     margin-left: 400px;
-    margin-top: -60px;
-}
-.main{
-    
-    
+    margin-top: -79px;
 }
 .main #massage{
     position: absolute;
     margin-top: 20%;
     margin-left: 30px;
-    background-color: #2d055e;
+    background-color: #ead067;
     border-radius: 6px;
     width: 300px;
 }
@@ -69,7 +64,22 @@ nav ul li a{
     width: 300px;
     height: 200px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+#massage h1{
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#massage h4{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#massage p{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 /* POP-UP BOXES */
