@@ -199,3 +199,15 @@ button span{
  .footer_second p{
      margin-right: 0;
  } */
+
+ .footer{
+    height: 50px;
+    align-items: center;
+    display: inline-flex;
+ }
+ .footer_social-media{
+    display: flex;
+ }
+ .footer_second p{
+    margin-left: 1100px;
+}
