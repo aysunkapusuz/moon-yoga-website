@@ -1,23 +1,21 @@
 let button = document.getElementById('button')
 let backgroundImage = document.getElementById('bImg')
 let image = document.getElementById('moonn')
-let welcome = document.querySelector('#wel')
 
 
 function toggleBtn(){
     button.classList.toggle('active')
     backgroundImage.classList.toggle('backgroundImage')
-    // image.classList.toggle('moon')
-    welcome.classList.toggle('welcome')
+    image.classList.toggle('moon')
     
 }
 
-document.querySelector('#button').addEventListener('click', hide)
-function hide(){
-  document.getElementById('moonn').classList.toggle('moon')
-  
-}
-// const backgroundImage = document.querySelector('#bImg')
+// document.querySelector('#button').addEventListener('click', hide)
+// function hide(){
+//   document.getElementById('moonn').classList.toggle('moon')
+//   
+// }
+// // const backgroundImage = document.querySelector('#bImg')
 // const image = document.querySelector('#moonn')
 // const welcome = document.querySelector('#wel')
 // const button = document.querySelector('#button')
