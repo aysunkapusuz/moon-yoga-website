@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+}
+.main_div{
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 3%;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+    background-color: #e0dbe6;
+    background-image: linear-gradient(to top, rgb(214, 141, 6), #c4bba5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.thebiggest{
+    display: flexbox;
+    height: 50% ;
+    width: 60%;
+    margin-left: 600px;
+    margin-top: 200px;
+    background-color:#1c2733;
+    border-radius: 6px;
+    width: 250px;
+}
+.thebiggest h3, p{
+   text-align: center;
+}
+
+ .footer{
+    padding: 98px 3%;
+    height: 50px;
+    align-items: center;
+    display: inline-flex;
+    font-size: 16px;
+    z-index: 999;
+    color: aliceblue;
+    margin-top: 170px;
+ }
+ .footer_social-media{
+    display: flex;
+
+ }
+ .footer_social-media a{
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #e0dbe6;
+    background-image: linear-gradient(to top, rgb(214, 141, 6), #c4bba5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+ }
+ .footer_social-media i:hover{
+    color: #e0dbe6;
+    /* transform: scale(1.075);
+    transition: 0.2s ease-in; */
+    cursor: pointer;
+}
+ .footer_second p{
+    margin-left: 960px;
+}
