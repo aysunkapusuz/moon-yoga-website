@@ -22,7 +22,7 @@ nav{
     padding: 20px 3%;
 }
 nav .logo{
-    width: 160px;
+    width: 250px;
     cursor: pointer;
     background-color: #e0dbe6;
     background-image: linear-gradient(to top, rgb(214, 141, 6), #c4bba5 100%);
