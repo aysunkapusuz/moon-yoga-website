@@ -11,6 +11,7 @@ body{
     background-image: url('stars.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     min-height: 100vh;
     color: aliceblue;
@@ -90,8 +91,6 @@ nav ul li a{
  }
  .footer_social-media i:hover{
     color: #e0dbe6;
-    /* transform: scale(1.075);
-    transition: 0.2s ease-in; */
     cursor: pointer;
 }
  .footer_second p{
